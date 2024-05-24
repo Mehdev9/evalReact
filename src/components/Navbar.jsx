@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
-      <h1>nav</h1>
-    </div>
+    <nav className='bg-primary text-warning'>
+      <h1 className='p-3'>Pokedex</h1>
+    </nav>
   )
 }
 
