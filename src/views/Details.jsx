@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Search from "./components/Search";
 
 
 
@@ -10,7 +9,6 @@ function detail() {
   <div>
     <Navbar></Navbar>
     
-    <Search search={Search}/>
     </div>
   );
 }
